@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SimulationUIClass</class>
+ <widget class="QDialog" name="SimulationUIClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>268</width>
+    <height>327</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>268</width>
+    <height>327</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>268</width>
+    <height>327</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>仿真引擎</string>
+  </property>
+  <widget class="QPushButton" name="ModelAssembly_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>40</y>
+     <width>211</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>模型装配</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SimulationDeduction_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>180</y>
+     <width>211</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>仿真推演</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="SimulationUI.qrc"/>
+ </resources>
+ <connections/>
+</ui>
