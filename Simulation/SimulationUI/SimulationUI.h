@@ -7,9 +7,9 @@
 #include "SimulationDeductionMainWindow.h"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
-/// <summary>	·ÂÕæÒıÇæ.	</summary>
+/// <summary>	ä»¿çœŸå¼•æ“.	</summary>
 ///
-/// <remarks>	ÖìÁ¬³¬, 2024/05/18.	</remarks>
+/// <remarks>	æœ±è¿è¶…, 2024/05/18.	</remarks>
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 class SimulationUI : public QDialog
@@ -23,9 +23,9 @@ public:
 private:
     Ui::SimulationUIClass ui;
 
-	/// <summary>	Ä£ĞÍ×°ÅäÖ÷½çÃæ.	</summary>
+	/// <summary>	æ¨¡å‹è£…é…ä¸»ç•Œé¢.	</summary>
 	ModelAssemblyMainWindow *modelassemblyMainWindow;
 
-	/// <summary>	·ÂÕæÍÆÑİÖ÷½çÃæ.	</summary>
+	/// <summary>	ä»¿çœŸæ¨æ¼”ä¸»ç•Œé¢.	</summary>
 	SimulationDeductionMainWindow *simulationdeductionMainWindow;
 };
